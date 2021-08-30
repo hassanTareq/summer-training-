@@ -1,0 +1,50 @@
+/*Style the NavBar*/
+.Nav,.headeer,.serviceSec{
+	background-color:darkblue;
+}
+.container{
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+}
+.container .brand h1{
+	color:white;
+}
+.container .links a{
+	text-decoration: none;
+	padding-left:2rem;
+	color: white; 
+}
+
+/*Style the Header section*/
+.headeer{
+	padding-top: 2.5%;
+}
+.container .photo{
+	width: 500px
+}
+.container .photo img{
+	width:100%;
+}
+.container .content h1,p{
+	color: white;
+}
+.container .content h2{
+	
+}
+/*Style the Body section*/
+.container .bodycontent{
+	text-align: center;
+}
+.container .bodycontent .bodyPara{
+	color: black;
+}
+/*Style the service section*/
+.serviceSec{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.container5{
+	width: 70%;
+	text-align: center;
+}
