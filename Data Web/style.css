@@ -1,0 +1,146 @@
+/* define main variables*/
+:root{
+    --dark-color:#0c0f38;
+    --yellow-color:#fdd430;
+    --purple-color:#9659e0;
+}
+/*maiin style*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 70%;
+}
+/*Navbar style*/
+.navbar-expand-sm{
+    background:var(--dark-color) !important;
+}
+.navbar-expand-sm .navbar-brand{
+    font-size:1.5rem;
+    font-weight: bold;
+    pointer-events: none;
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 1.2rem;
+}
+.navbar-nav .nav-item .active{
+    color: var(--yellow-color) !important;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: var(--yellow-color) !important;
+    transition: color 1s;
+}
+/*Showcase style*/
+.showcase{
+    background-color: var(--dark-color);
+}
+.container .content{
+    color: white;
+}
+.container .row .col-sm-12 .pic{
+   width: 50%;
+}
+.content h1{
+    font-size: 4rem;
+    font-weight: bolder;
+    width: 67%;
+    padding-bottom :3%;
+}
+.content .yell{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color:var(--yellow-color);
+    padding-bottom :3%;
+}
+.content p{
+    font-size: 0.9rem;
+    width: 65%;
+    padding-bottom :3%;
+}
+.content .btn-light{
+    width: 30%;
+    border-radius: 0%;
+}
+.content .btn:hover{
+    color:white;
+    background-color: black;
+    border-color:black;
+}
+/*About section style*/
+.container h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.container .mx-auto{
+    width: 79%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.container .btn-dark{
+    width: 15%;
+    margin-bottom: 5%;
+    border-radius: 0%;
+}
+/*Services section style*/
+.servicAria{
+    background-color: var(--dark-color);
+    padding-bottom: 4% !important;
+}
+.container .text-center{
+    padding-bottom: 0%;
+    font-size:1.5rem;
+}
+.container .small{
+    width: 50%;
+    font-size: 1rem;
+    padding-top: 1%;
+    text-align: center;
+}
+.container .row .service{
+    border: 1.5px solid white;
+    margin-bottom:2%;
+   border-radius: 20px;
+   width:30%;
+
+}
+.container .row .service:hover{
+    background-color: var(--purple-color);
+    transition:all 1s ;
+}
+
+.container .readMore{
+    margin-left: 40%;
+}
+.container .readMore a{
+    width:25%;
+    border-radius: 0%;
+    margin-top: 5%;
+}
+.container .readMore a:hover{
+    background-color: var(--purple-color);
+    border-color: var(--purple-color);  
+    color: white;
+}
+.container .row .col .border{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    margin-top:12%;
+}
+.container .row .col .border .pic{
+    width: 60px;
+    margin-left: 15px;
+    margin-top: 6px;
+}
+.container .row .col .border:hover{
+    background-color:lightgray ;
+}
+
+.container .row .col .parag{
+    width: 90%;
+    margin-bottom: 13%;
+    margin-left: 25px;
+}
