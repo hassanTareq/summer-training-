@@ -1,0 +1,21 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+  }
+  .Xlarge{
+      font-size: 5rem;
+      font-weight: bolder;
+  }
+  .Large{
+      font-size:3rem ;
+  }
+  img{
+    filter: brightness(50%)
+  }

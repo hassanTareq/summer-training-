@@ -1,0 +1,13 @@
+.navbar{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container .pic{
+    width: 7%;
+}
+.container .navbar-nav{
+    font-size: 1.5rem;
+}
+.nav-link:hover{
+    color: #0DCAF0 !important;
+   transition: all 1s;
+}

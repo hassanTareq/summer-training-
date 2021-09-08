@@ -1,0 +1,54 @@
+.container{
+    background-color: #ffffff;
+    border-radius: 30px;
+    margin-bottom: 1%;
+}
+img{
+    margin-left:3%;
+    margin-bottom:3%;
+    border-radius: 15px;
+}
+.txt{
+    margin-left:3%;
+}
+.txt .text-dark{
+ padding-bottom:2%;
+}
+.container .row .service{
+    border: 1.5px solid black;
+    margin-bottom:2%;
+   border-radius: 20px;
+   width:30%;
+
+}
+.pic{
+    padding-left:12%;
+    margin-top: 10px;
+}
+.pic1{
+    margin-top: 19%;
+}
+.container .row .col .border{
+    border-radius: 50%;
+    width: 95px;
+    height: 95px;
+    background-color: white;
+    margin-top:12%;
+}
+.container .row .service:hover{
+    background-color:#212529;
+    color: white;
+    transition:all 1s ;
+}
+.container .row .lef{
+    margin-left: 2.5% !important;
+}
+hr{
+    margin-bottom: 2%;
+    border: solid #212529;
+}
+.parag{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
