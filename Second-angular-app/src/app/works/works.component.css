@@ -1,0 +1,62 @@
+.col-lg-4:nth-child(odd) img:hover{
+    transform: rotate(-30deg);
+    transition: all 1s ease-out;
+}
+.col-lg-4:nth-child(even) img:hover{
+    transform: rotate(30deg);
+    transition: all 1s ease-in-out;
+}
+img{
+    width: 530px;
+}
+.card{
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+    /*iphone 5/se */
+    @media (min-width: 100px) and (max-width: 320px) { 
+        
+        img{
+            width: 250px;
+            margin-bottom: 10px;
+        }
+        .card{
+            width: 250px;
+            margin-left: 15px;
+        }
+    }
+    @media (min-width: 100px) and (max-width: 576px) { 
+        
+        img{
+            width: 290px;
+            margin-bottom: 10px;
+        }
+        .card{
+            width: 290px;
+        }
+    }
+    /*  ipad and tablets */
+    @media (min-width: 576px) and (max-width: 990px) { 
+        
+        img{
+            width: 550px;
+            margin-bottom: 10px;
+        }
+        .card{
+            width: 550px;
+            margin-left: 110px;
+        }
+    }
+    /**/
+    @media (min-width: 990px) and (max-width: 1025px) { 
+        
+        img{
+            width: 450px;
+            margin-bottom: 10px;
+        }
+        .card{
+            width: 800px !important;
+            margin-left: 10px;
+        }
+    }

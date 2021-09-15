@@ -1,0 +1,50 @@
+<!--Navbar Section -->
+<nav class="navbar navbar-expand-md navbar-light ">
+  <div class="container">
+    <a class="navbar-brand" routerLink="#" href="#"><i class="fab fa-angular"></i>Angular Demo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item px-2">
+          <a class="nav-link " aria-current="page" routerLink="" >Home</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link" routerLink="/explore">Services</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link"  routerLink="/works">Work</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link"  routerLink="/news">Lates News</a>
+        </li>
+        <li class="nav-item px-2">
+          <a class="nav-link"  routerLink="/contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<router-outlet></router-outlet>
+
+<!--footer section-->
+<footer class="text-center text-dark bg-light p-3">
+  <div class="container">
+    <div class="row">
+      <div class="col col-lg-6 col-md-12">
+        <div class="follow-us">
+          Follow Us <i class="fab fa-facebook px-1"></i>
+          <i class="fab fa-instagram px-1"></i>
+          <i class="fab fa-twitter px-1"></i>
+          <i class="fab fa-linkedin px-1"></i>
+        </div>
+      </div>
+      <div class="col col-lg-6 col-md-12">
+        <div class="copyright">
+          copyright &copy; 2021 <br>Dsigned by <span> Eng.Hesham</span> Created by <span>HTHAM</span> <br>All rights reserved
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,18 @@
+<div class="container text-center">
+    <div class="content my-5 bg-dark text-light py-1">
+        <h1>Latest News</h1>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 my-2" *ngFor="let data of news">
+            <div class="card" style="width: 25rem;">
+                <img *ngIf="data.urlToImage!==null" [src]="data.urlToImage" class="card-img-top" alt="..." >
+                <img *ngIf="data.urlToImage===null" src="../../assets/img/portfolio/thumbnails/1.jpg" class="card-img-top" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title">{{data.title}}</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a [href]="data.url" class="btn btn-outline-info">Show more</a>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+<header class="text-center bg-dark text-light">
+    <h1 class="py-2">Our Works</h1>
+</header>
+<section>
+    <div class="card">
+        <div class="row">
+            <div class="col-lg-4 col-sm-12" *ngFor="let img of workimages">
+                <img [src]="img.imageUrl" alt="">
+            </div>
+        </div>
+    </div>
+</section>
