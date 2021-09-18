@@ -1,0 +1,54 @@
+
+/*About Us Section*/
+.AboutUs{
+    background-image: url("../../assets/images/AboutUsBG.jpg");
+}
+.rBG{
+    background-color: white;
+  /*  box-shadow: 10px 10px 5px grey;*/
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container .row .col-lg-6 .B2{
+    font-size: 1.2rem;
+    color: #1e62a7;
+}
+
+        /*Content*/
+.container .row .col-lg-6 .Head2 ,.Head3{
+    color: #1e62a7;
+    font-size: 3rem;
+    padding-right: 100px;
+}
+
+/*Activities Section*/
+.activities{
+    margin-bottom: 50px;
+}
+.head3,.Head4{
+    color: #1e62a7;
+}
+.card-img-top{
+    height: 400px;
+}
+.card{
+    transition: .9s;
+}
+.card:hover{
+    transform: scale(1.1,1.1);
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 40px;
+    margin-top: 10px;
+    transition: all .9s ;
+}
+/*Sponsors Section*/
+
+.newhr{
+    border: 2px solid black;
+    width: 25%;
+    margin-top: 1%;
+   }
+.sponsors{
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+

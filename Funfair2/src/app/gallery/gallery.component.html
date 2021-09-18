@@ -1,0 +1,42 @@
+<section class="gallery py-5">
+<div class="container rBG">
+    <h3 class="rides">OUR RIDES</h3>
+    <br>
+    <h4 class="inner">carousel</h4>
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-12 py-3" *ngFor="let data of carousel">
+        <div class="card" style="width: 18rem;">
+          <img [src]="data.img" class="card-img-top" alt="...">
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <h4 class="inner">city hopper</h4>
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-12 py-3" *ngFor="let data of hopper">
+        <div class="card" style="width: 18rem;">
+          <img [src]="data.img" class="card-img-top" alt="...">
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <h4 class="inner">waltzer</h4>
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-12 py-3" *ngFor="let data of waltzer">
+        <div class="card" style="width: 18rem;">
+          <img [src]="data.img" class="card-img-top" alt="...">
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <h4 class="inner">scream</h4>
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-12 py-3" *ngFor="let data of scream">
+        <div class="card" style="width: 18rem;">
+          <img [src]="data.img" class="card-img-top" alt="...">
+        </div>
+      </div>
+    </div>
+    <a routerLink="/" class="btn my-3 px-5">Back</a>
+</div>
+</section>

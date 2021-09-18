@@ -1,0 +1,50 @@
+.abslute{
+    position: absolute;
+    top: 90%;
+    right: 21%;
+}
+.Head{
+    color: #1e62a7;
+    margin-top: 280px;
+    margin-left: 220px;
+}
+.subHead{
+    color: black !important;
+    margin-left: 220px;
+}
+table, th, td {
+    border-bottom:1px solid lightgray;
+  }
+  table{
+      width: 70%;
+      margin-top: 40px;
+      margin-left: 210px;
+      margin-bottom: 60px;
+  }
+  td{
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+  .btn{
+      background-color: black;
+      color: white;
+      margin-left: 47%;
+      margin-bottom: 60px;
+      transition: all .9s;
+  }
+  .btn:hover{
+   transform: scale(1.2,1.2);
+   transition: all .9s;
+}
+.input{
+    margin-left: 170px;
+    margin-top: 40px;
+}
+.input .input1,.input2{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    font-size: 1.2rem;
+}
+.input .input1:focus,.input2:focus{
+    outline: none;
+}

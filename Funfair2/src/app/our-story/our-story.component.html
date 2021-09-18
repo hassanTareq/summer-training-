@@ -1,0 +1,23 @@
+<section class="OurStory py-5">
+    <div class="container rBG">
+        <h1 class="Head text-center pt-5">Our Story</h1>
+        <hr class="newhr mx-auto">
+        <div class="row">
+            <div class="col-lg-6 txt">
+                <h3 class="subHead">HI Funfair has been synonymous with the travelling fairground business for well over a century. There can be few other showmen whose names resonate so immediately with the public.
+
+                    Pat Collins was born in Chester in 1859, the son of a former Irish horse dealer. After his marriage in 1880 to the daughter of a Wrexham jeweler he left the north-west of England to make his way on the fairgrounds of the industrial West Midlands. He established himself remarkably quickly and within a decade was the leading showman in the Midlands, owning several steam-driven fairground rides. In 1889 he was one of a group of showmen who met at Manchester to form what became known as the Showmen’s Guild of Great Britain.
+                    
+                    In 1908 he was elected the president of the Showmen’s Guild and, in partnership with its first general secretary, the Reverend Thomas Horne, he played an important role in developing the organization into an influential national body. By this time it was generally acknowledged that he had few equals, if any, in the travelling funfair business. He ran fairs across the whole of the Midlands and occupied positions at the most important fairs, such as Nottingham Goose Fair. His travels were not limited to the Midlands, however and he made annual appearances at fairs in Lancashire, Yorkshire and the Home Counties.
+                    
+                    His career took on a slant in 1918 when he became a councilor in his adopted home town of Walsall. Four years later he was persuaded to stand for election to the House of Commons and became Walsall’s MP, a position he retained at the following election. Although his time as an MP was brief, he served on Walsall Council for over 20 years and during the 1930’s he was the gown’s Mayor. It is said that Prime Minister Neville Chamberlain offered him a knighthood, but he declined the honor, saying that he had been born plain Pat Collins and that’s how he would remain.
+                    
+                    After his death in 1943 the firm that he established, unquestionably the largest of its kind in Great Britain, was left in the hands of his widow and a grandson. In the post-war years it continued to dominate the fairground business, presenting four fairs every week during the season. In more recent years the Pat Collins business has been restructured and is now run by Anthony Harris, former president of the Showmen’s Guild and is currently an elected member of Walsall Council.</h3>
+                    <a routerLink="/" class="btn ">Back</a>
+            </div>
+            <div class="col-lg-6">
+                <img [src]="data.img" alt="" *ngFor="let data of image">
+            </div>
+        </div>
+    </div>
+</section>

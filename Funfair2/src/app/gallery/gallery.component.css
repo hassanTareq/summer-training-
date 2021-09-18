@@ -1,0 +1,39 @@
+.gallery{
+    background-image: url(../../assets/images/AboutUsBG.jpg);
+}
+.rBG{
+  background-color: white;
+/*  box-shadow: 10px 10px 5px grey;*/
+box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-img-top {
+    transition: 0.5s;
+  }
+  
+  .card-img-top:hover {
+    transform: scale(1.1);
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s;
+  }
+  
+  .inner {
+    color: #1e62a7;
+    font-size: 1.5rem;
+  }
+  
+  .rides {
+    color: #1e62a7;
+    font-weight: bold;
+  }
+  .btn{
+    background-color: black;
+    color: white;
+    font-size: 1.3rem;
+    margin-left: 44%;
+    margin-bottom: 60px;
+    transition: all .9s;
+}
+.btn:hover{
+ transform: scale(1.2,1.2);
+ transition: all .9s;
+}

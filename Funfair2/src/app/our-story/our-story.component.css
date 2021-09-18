@@ -1,0 +1,33 @@
+.OurStory{
+    background-image: url("../../assets/images/AboutUsBG.jpg");
+}
+.rBG{
+    background-color: white;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Head{
+    color: #1e62a7;
+}
+.newhr{
+    border: 2px solid black;
+    width: 25%;
+    margin-bottom: 50px;
+   }
+   .txt{
+    text-align: justify;
+    text-justify: inter-word;
+   }
+   .btn{
+       margin-top: 30px;
+       margin-left: 45%;
+       margin-bottom: 30px;
+       font-size: 1.3rem;
+       background-color: black;
+       color: white;
+       width: 20%;
+       transition: all .9s;
+   }
+   .btn:hover{
+       transform: scale(1.2,1.2);
+       transition: all .9s;
+   }
